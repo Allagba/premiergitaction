@@ -1,0 +1,10 @@
+name: monpremierworkflow
+on: workflow_dispatch
+jobs:
+  MaPremierJob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Afficher hello world
+        run: echo "Hello world"
+      - name: Afficher l'avencement du projet
+        run: echo "L'avencement du projet est en bonne voie"
